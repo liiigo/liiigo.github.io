@@ -1,6 +1,8 @@
 ---
 title: Post with Header Image
 tags: TeXt
+key: Header
+pageview: true
 article_header:
   type: cover
   image:
