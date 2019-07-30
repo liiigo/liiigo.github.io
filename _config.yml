@@ -22,7 +22,7 @@ url     : # the base hostname & protocol for your site e.g. https://www.someone.
 baseurl : # does not include hostname
 title   : Fast Moving Train
 description: > # this means to ignore newlines until "Language & timezone"
-  
+  可能算是个技术博客
 
 ## => Language and Timezone
 ##############################
