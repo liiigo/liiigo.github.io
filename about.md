@@ -19,49 +19,35 @@ key: page-about
 comment: false
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+## 关于博客
+博客的名字来自木心的一本诗集《云雀叫了一整天》，不能严格算作一本诗集，因为最后还有很多他的碎碎念。这个标题我很喜欢，擅自拿来做过日记本的名字，现在写个人博客还想用。
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+会写一些**技术笔记**，也会写一些**随笔**，点击**归档**可以按标签查看文章。
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+搭这个博客一方面是因为种种原因，之前在网络上写东西的地方已经没办法给我安全感，想要一个新的地方写写东西；另一方面也是想激励一下自己，把印象笔记里的断句残片转化成人话。无论是技术笔记还是读书摘录，似乎以前都没有从输入到输出的转化过程。
 
-## Features
+## 关于我
+在网上一直用**liigo**作为id，偶然发现同样也有一位程序员使用这个名字，所以偶尔也会用**liiigo**。
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+一个技能点胡乱分配的大三学生，大数据专业在读。似乎哪一方面都想做一点，又没法做成专家。虽然很喜欢设计，也做了不少东西，但还是最想要做个踏实的技术人员，奈何大学前两年没有沉下心来学习，甚至连愉快地折腾电脑的时间都少得可怜。处理完一些事情，希望能借这个博客踏实下来，沉淀技术，尽量离理想中的自己近一些。
 
-## Skins
+## 最后
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+不知道你是怎样看到我的博客，但看到了你就是我的朋友了！欢迎在每篇文章下方的评论区跟我讨论。**祝你一切顺利!**
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
-
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+> 从清晨六点起  
+> 连续学习到傍晚  
+> 发觉我的左手  
+> 怜悯地握了握右手  
+>   
+> 黄昏时分  
+> 由于无聊  
+> 我三次走进浴室  
+> 洗洗这个洗洗那个  
+>   
+> 生在任何时代  
+> 我都是痛苦的  
+> 所以不要怪时代  
+> 也不要怪我  
+>   
+> —— 木心 《卡夫卡的旧笔记》
