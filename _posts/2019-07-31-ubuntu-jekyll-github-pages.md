@@ -1,5 +1,5 @@
 ---
-title: ubuntu用Jekyll和Github Pages搭建自己的博客
+title: ubuntu用Jekyll和Github Pages搭建自己的博客/未完
 tags: jekyll
 key: JekyllGithubPages
 comment: true
