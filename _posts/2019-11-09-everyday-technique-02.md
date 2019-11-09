@@ -1,5 +1,5 @@
 ---
-title: 每日技术笔记02 | 
+title: 每日技术笔记02 | 机器学习结果评价/爬虫相关/朴素贝叶斯文本分类的思路/python路径相关
 tags: 每日技术笔记
 key: everydayTechnique02
 comment: true
@@ -9,7 +9,7 @@ show_edit_on_github: false
 pageview: true
 show_subscribe: false
 ---
-内容概览：
+内容概览：真正例、假正例，爬虫，朴素贝叶斯，文本分类，python路径
 
 <!--more-->
 
@@ -18,7 +18,7 @@ show_subscribe: false
 # 爬虫相关
 ##根据特定标签抓取信息
 观察网页[War and Peace](http://www.pythonscraping.com/pages/warandpeace.html)，可以发现一个标签结构：
-```
+```html
 # 类名为class_name的行内元素
 <span class="class_name"><span>
 
@@ -80,6 +80,7 @@ os.chdir("/Users/<username>/Desktop")
 - 当前目录："file"
 - 父目录："../file"
 - 根目录："/file"和"\file"都可接受
+  
 ```python
 # 当前文件夹的绝对路径
 os.path.abspath('.')
