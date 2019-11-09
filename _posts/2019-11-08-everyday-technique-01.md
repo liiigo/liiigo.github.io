@@ -59,7 +59,6 @@ bsObj = BeautifulSoup(html.read())
 try:
     badCount = bsObj.nonExistingTag.anotherTag
 except AttributeError as e:
-    # 这个AttributeError可能来自nonExistingTag为None，也可能是anotherTag有问题
     print("Tag was not found")
 else:
     # 如果没有捕捉到异常则会执行else之后的语句
