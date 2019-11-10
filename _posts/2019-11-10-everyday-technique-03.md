@@ -1,5 +1,5 @@
 ---
-title: 每日技术笔记03 | 
+title: 每日技术笔记03 | 机器学习结果评价
 tags: 每日技术笔记
 key: everydayTechnique03
 comment: true
@@ -9,7 +9,7 @@ show_edit_on_github: false
 pageview: true
 show_subscribe: false
 ---
-内容概览：
+内容概览：真正例、假正例...
 
 <!--more-->
 

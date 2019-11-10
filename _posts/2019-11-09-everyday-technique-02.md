@@ -1,5 +1,5 @@
 ---
-title: 每日技术笔记02 | 机器学习结果评价/爬虫相关/朴素贝叶斯文本分类的思路/python路径相关
+title: 每日技术笔记02 | 爬虫相关/朴素贝叶斯文本分类的思路/python路径相关
 tags: 每日技术笔记
 key: everydayTechnique02
 comment: true
@@ -9,13 +9,11 @@ show_edit_on_github: false
 pageview: true
 show_subscribe: false
 ---
-内容概览：真正例、假正例，爬虫，朴素贝叶斯，文本分类，python路径，markdown中latex公式预览
+内容概览：爬虫，朴素贝叶斯，文本分类，python路径，markdown中latex公式预览
 
 <!--more-->
 
 因为自己总是在一些大家似乎没有问题的点上纠结，又不好意思问别人（…），就还是记下来自己多想一想。感觉每天的笔记其实都不需要有标题…
-
-# ML的评价：2x2结果表
 
 # 爬虫相关
 ## 根据特定标签抓取信息
@@ -108,3 +106,7 @@ os.path.abspath('..')
 2. 装**markdown** **preview** **enhancement**，这个可以了，但是右侧预览不适配我的夜间主题，也是有点麻烦，先凑合用着吧。
 
 二者都使用了[KaTeX](https://katex.org/)（解释是一个专门用于web的快速数学公式渲染工具库，我大概不会直接使用到它），官网给的例子看上去比MathJax要快很多。
+
+但是jekyll似乎不是直接支持latex的。
+
+[How to support latex in github-pages?](https://stackoverflow.com/questions/26275645/how-to-support-latex-in-github-pages)提供了一些解决方案，之后研究一下。
