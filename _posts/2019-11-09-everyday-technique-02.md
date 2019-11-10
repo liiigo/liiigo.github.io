@@ -9,7 +9,7 @@ show_edit_on_github: false
 pageview: true
 show_subscribe: false
 ---
-内容概览：真正例、假正例，爬虫，朴素贝叶斯，文本分类，python路径
+内容概览：真正例、假正例，爬虫，朴素贝叶斯，文本分类，python路径，markdown中latex公式预览
 
 <!--more-->
 
@@ -68,9 +68,20 @@ for name in nameList:
 - 父标签：**.parent**，**.parents**
 
 # 用朴素贝叶斯进行文本分类
+一个比较完整的教程，用来实现作业的第一部分：
+
 [NLP系列(2)_用朴素贝叶斯进行文本分类(上)](https://blog.csdn.net/han_xiaoyang/article/details/50616559)
 
 [NLP系列(3)_用朴素贝叶斯进行文本分类(下)](https://blog.csdn.net/longxinchen_ml/article/details/50629110)
+
+朴素贝叶斯的**朴素**在于**条件独立性**，就是说 $ f(x_1, x_2, ..., x_n | G = j) = \prod_{i=1}^nf_{i}(x_i|G=j) $ 
+
+
+```
+注：相乘符号的latex公式是\prod
+```
+
+贝叶斯定理出现的频率实在是太高了，但好像一直没有什么特别深入的理解，改天专门写一篇笔记讲讲这个吧。
 
 # python相关
 ## 改变当前目录
@@ -89,3 +100,10 @@ os.path.abspath('.')
 # 当前文件夹上一级的绝对路径
 os.path.abspath('..')
 ```
+
+# 其他
+这里单独说一下，vscode的markdown preview不支持latex语法的预览，网上查到的解决方案：
+1. 装**markdown** **math**插件，亲测没有用处……
+2. 装**markdown** **preview** **enhancement**，这个可以了，但是右侧预览不适配我的夜间主题，也是有点麻烦，先凑合用着吧。
+
+二者都使用了[KaTeX](https://katex.org/)（解释是一个专门用于web的快速数学公式渲染工具库，我大概不会直接使用到它），官网给的例子看上去比MathJax要快很多。
