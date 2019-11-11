@@ -107,6 +107,6 @@ os.path.abspath('..')
 
 二者都使用了[KaTeX](https://katex.org/)（解释是一个专门用于web的快速数学公式渲染工具库，我大概不会直接使用到它），官网给的例子看上去比MathJax要快很多。
 
-但是jekyll似乎不是直接支持latex的。
+但是jekyll似乎不是直接支持latex的，[How to support latex in github-pages?](https://stackoverflow.com/questions/26275645/how-to-support-latex-in-github-pages)提供了一些解决方案，之后研究一下。
 
-[How to support latex in github-pages?](https://stackoverflow.com/questions/26275645/how-to-support-latex-in-github-pages)提供了一些解决方案，之后研究一下。
+后续：修改head.html文件的办法是好用的！
