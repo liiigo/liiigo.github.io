@@ -73,6 +73,7 @@ for name in nameList:
 [NLP系列(3)_用朴素贝叶斯进行文本分类(下)](https://blog.csdn.net/longxinchen_ml/article/details/50629110)
 
 朴素贝叶斯的**朴素**在于**条件独立性**，就是说：
+
 $$ f(x_1, x_2, ..., x_n | G = j) = \prod_{i=1}^nf_{i}(x_i|G=j) $$
 
 
